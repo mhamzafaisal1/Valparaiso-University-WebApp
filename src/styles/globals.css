@@ -25,3 +25,38 @@
 .cardBodyContainer:hover {
   transform: scale(1.1);
 }
+
+
+
+.footer .container {
+  background-color: #ffcc00;
+  color: #613318;
+  padding: 10px;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+
+
+.footer .social-media ul{
+  color: black;
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.footer .social-media li {
+  margin: 0 10px;
+  
+}
+
+.footer .social-media li a i {
+  color: #613318;
+}
+
+.test {
+  text-decoration: none;
+  color: #613318;
+}
