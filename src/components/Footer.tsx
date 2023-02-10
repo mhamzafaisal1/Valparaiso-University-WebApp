@@ -14,9 +14,7 @@ const Footer = () => (
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-                    <h3 className="text-white"> Valparaiso University
-                        &copy; {new Date().getFullYear()} 
-                    </h3>
+                    <h2><a href="https://www.valpo.edu/" className="test">Valparaiso University</a></h2>
                     <h5>Valparaiso, IN 46383-6493 USA</h5>
                     <b><a href="tel:219-464-5000" className="test">219-464-5000</a></b>
                 </div>  {/* end of col-md 6 */}
@@ -46,8 +44,7 @@ const Footer = () => (
                             </a>
                         </li>
                         </ul>
-
-                        
+                       <p>Valparaiso University &copy; {new Date().getFullYear()}</p>  
                     </div>  {/* end of social-media */}
 
                 </div> {/* end of col-md-right */}
